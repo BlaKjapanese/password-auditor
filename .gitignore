@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.pyo
+*.txt
+auditor_backup.py
