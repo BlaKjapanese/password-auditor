@@ -39,15 +39,6 @@ python3 auditor.py --mode brute --hash <hash> --charset digits --max-length 4
 # Crack a bcrypt hash
 python3 auditor.py --mode bcrypt --hash <hash>
 ```
-
-## What I learned
-
-- How MD5, SHA-1, SHA-256, and bcrypt hashing algorithms work
-- Why bcrypt is the industry standard for password storage (intentionally slow + salted)
-- How dictionary attacks exploit common passwords using real-world leaked wordlists
-- How brute force attacks work and why password length matters exponentially
-- Python file I/O, hashlib, argparse, itertools, and bcrypt libraries
-
 ## Legal disclaimer
 
 This tool is for educational purposes only. Only use it on systems and hashes you own
